@@ -55,6 +55,7 @@ struct ProductCell_Previews: PreviewProvider {
         ProductCell(
             store: Store(
                 initialState: ProductDomain.State(
+                    id: UUID(),
                     product: Product.sample[0]
                 ),
                 reducer: ProductDomain.reducer,

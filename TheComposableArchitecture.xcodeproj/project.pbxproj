@@ -18,6 +18,8 @@
 		F1A588B429B0B35F006EB4D4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A588B329B0B35F006EB4D4 /* Product.swift */; };
 		F1A588B629B0B3B1006EB4D4 /* ProductDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A588B529B0B3B1006EB4D4 /* ProductDomain.swift */; };
 		F1A588B829B0B50F006EB4D4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A588B729B0B50F006EB4D4 /* ProductCell.swift */; };
+		F1A588BB29B0B8BA006EB4D4 /* ProductListDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A588BA29B0B8BA006EB4D4 /* ProductListDomain.swift */; };
+		F1A588BD29B0BE0C006EB4D4 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A588BC29B0BE0C006EB4D4 /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F1A588B329B0B35F006EB4D4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F1A588B529B0B3B1006EB4D4 /* ProductDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDomain.swift; sourceTree = "<group>"; };
 		F1A588B729B0B50F006EB4D4 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		F1A588BA29B0B8BA006EB4D4 /* ProductListDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListDomain.swift; sourceTree = "<group>"; };
+		F1A588BC29B0BE0C006EB4D4 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		F1A5889929B09CBA006EB4D4 /* TheComposableArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				F1A588B929B0B8AA006EB4D4 /* ProductList */,
 				F1A588B229B0B354006EB4D4 /* Product */,
 				F1A588AB29B0A68B006EB4D4 /* AddToCart */,
 				F1A5889A29B09CBA006EB4D4 /* TheComposableArchitectureApp.swift */,
@@ -101,6 +106,15 @@
 				F1A588B729B0B50F006EB4D4 /* ProductCell.swift */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		F1A588B929B0B8AA006EB4D4 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F1A588BA29B0B8BA006EB4D4 /* ProductListDomain.swift */,
+				F1A588BC29B0BE0C006EB4D4 /* ProductListView.swift */,
+			);
+			path = ProductList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +197,12 @@
 				F1A588AD29B0A69E006EB4D4 /* AddToCartDomain.swift in Sources */,
 				F1A5889D29B09CBA006EB4D4 /* ContentView.swift in Sources */,
 				F1A588B629B0B3B1006EB4D4 /* ProductDomain.swift in Sources */,
+				F1A588BD29B0BE0C006EB4D4 /* ProductListView.swift in Sources */,
 				F1A5889B29B09CBA006EB4D4 /* TheComposableArchitectureApp.swift in Sources */,
 				F1A588B829B0B50F006EB4D4 /* ProductCell.swift in Sources */,
 				F1A588B129B0B0AF006EB4D4 /* AddToCartButton.swift in Sources */,
 				F1A588B429B0B35F006EB4D4 /* Product.swift in Sources */,
+				F1A588BB29B0B8BA006EB4D4 /* ProductListDomain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
